@@ -86,7 +86,7 @@ fun MyNavigation(){
                 type = NavType.IntType
             }
             )){
-//            val age = it.arguments?.getInt("age")
+
             val username = it.arguments?.getString("username")
             val age = it.arguments?.getInt("age")
 

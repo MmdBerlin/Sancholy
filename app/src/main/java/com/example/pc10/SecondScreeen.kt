@@ -13,6 +13,6 @@ import androidx.compose.ui.unit.sp
 fun SecondScreen(username: String? , age:Int?) {
     Column(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(text = "${username} welcome your age is ${2023 - age!!} ", fontSize = 15.sp)
+        Text(text = "Welcome ${username} Your Age is : ${2023 - age!!} ", fontSize = 15.sp)
     }
 }
